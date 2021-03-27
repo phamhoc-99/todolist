@@ -1,0 +1,6 @@
+.Todolist{
+    color: red;
+}
+.Todolist-complete{
+    text-decoration: line-through;
+}
