@@ -1,7 +1,18 @@
 .TodoItem{
-    color: red;
+    color: #4d4d4d;
+    font-weight: 300;
+    font-size: 24px;
+    padding: 10px 5px;
+    border-bottom: 1px solid #BEBEBE;
+    display: flex;
 }
-.TodoItem-complete{
+.TodoItem:last-child{
+    border-bottom: none;
+}
+.TodoItem>p{
+    margin: 0 0 0 10px;
+}
+.TodoItem-complete>p{
     text-decoration: line-through;
     opacity: .3;
 }
